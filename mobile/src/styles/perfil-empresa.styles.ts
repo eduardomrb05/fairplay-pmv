@@ -1,0 +1,182 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+  screen: {
+    flex: 1,
+    backgroundColor: "#f2f2f2",
+  },
+  container: {
+    flexGrow: 1,
+    paddingTop: 116,
+    paddingHorizontal: 15,
+    paddingBottom: 40,
+  },
+  header: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    marginBottom: 15,
+  },
+  title: {
+    fontSize: 18,
+    fontWeight: "bold",
+    color: "#111827",
+  },
+  notificationButton: {
+    width: 38,
+    height: 38,
+    borderRadius: 19,
+    backgroundColor: "#FFFFFF",
+    borderWidth: 1,
+    borderColor: "#D1D5DB",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  card: {
+    backgroundColor: "#dce3b5",
+    padding: 15,
+    borderRadius: 20,
+    flexDirection: "row",
+    justifyContent: "space-between",
+    marginBottom: 15,
+  },
+  infoColumn: {
+    flex: 1,
+    paddingRight: 10,
+  },
+  imageBox: {
+    alignItems: "center",
+  },
+  profileImage: {
+    width: 72,
+    height: 72,
+    marginBottom: 6,
+    resizeMode: "cover",
+    borderRadius: 36,
+    backgroundColor: "#FFFFFF",
+  },
+  editPhotoButton: {
+    paddingVertical: 4,
+    paddingHorizontal: 8,
+  },
+  editPhotoText: {
+    fontSize: 11,
+    fontWeight: "600",
+    color: "#2563EB",
+  },
+  editBox: {
+    backgroundColor: "#dce3b5",
+    padding: 15,
+    borderRadius: 20,
+    marginBottom: 14,
+    alignItems: "center",
+  },
+  editText: {
+    fontWeight: "bold",
+    color: "#111827",
+  },
+  mensalistaCard: {
+    backgroundColor: "#FFFFFF",
+    borderRadius: 16,
+    padding: 14,
+    marginBottom: 14,
+    borderWidth: 1,
+    borderColor: "#E5E7EB",
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 12,
+  },
+  mensalistaInfo: {
+    flex: 1,
+  },
+  mensalistaTitle: {
+    fontSize: 14,
+    fontWeight: "700",
+    color: "#111827",
+    marginBottom: 4,
+  },
+  mensalistaSubtitle: {
+    fontSize: 12,
+    color: "#6B7280",
+    lineHeight: 17,
+  },
+  toggleButton: {
+    minWidth: 72,
+    paddingVertical: 8,
+    paddingHorizontal: 12,
+    borderRadius: 16,
+    alignItems: "center",
+  },
+  toggleOn: {
+    backgroundColor: "#16A34A",
+  },
+  toggleOff: {
+    backgroundColor: "#9CA3AF",
+  },
+  toggleText: {
+    color: "#FFFFFF",
+    fontWeight: "700",
+    fontSize: 12,
+  },
+  btnBlue: {
+    backgroundColor: "#2f6b9a",
+    padding: 15,
+    borderRadius: 30,
+    marginBottom: 10,
+    alignItems: "center",
+  },
+  btnYellow: {
+    backgroundColor: "#f1c40f",
+    padding: 15,
+    borderRadius: 30,
+    marginBottom: 10,
+    alignItems: "center",
+  },
+  btnAdmin: {
+    backgroundColor: "#7C3AED",
+    padding: 15,
+    borderRadius: 30,
+    marginBottom: 10,
+    alignItems: "center",
+  },
+  btnRed: {
+    backgroundColor: "#e74c3c",
+    paddingVertical: 15,
+    paddingHorizontal: 50,
+    borderRadius: 30,
+    marginBottom: 20,
+    alignItems: "center",
+    alignSelf: "center",
+  },
+  btnText: {
+    color: "#fff",
+    fontWeight: "bold",
+    fontSize: 16,
+  },
+  chart: {
+    backgroundColor: "#FFFFFF",
+    borderRadius: 12,
+    padding: 16,
+    marginBottom: 15,
+    borderWidth: 1,
+    borderColor: "#E5E7EB",
+  },
+  chartTitle: {
+    fontSize: 15,
+    fontWeight: "700",
+    color: "#111827",
+    marginBottom: 10,
+  },
+  link: {
+    textAlign: "center",
+    fontSize: 10,
+    color: "#6B7280",
+  },
+  infoText: {
+    marginBottom: 4,
+    fontSize: 14,
+  },
+  infoLabel: {
+    fontWeight: "bold",
+  },
+});

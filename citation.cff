@@ -1,0 +1,38 @@
+message: Please cite this software using these metadata.
+title: FairPlay
+authors: 
+  - family-names: Clara Miguel Leocádio 
+    given-names: Anna 
+  - family-names: Moreira Ribeiro
+    given-names: Eduardo 
+  - family-names: Vinicius Costa Damas
+    given-names: Guilherme 
+  - family-names: Maciel Reis 
+    given-names: Josué 
+  - family-names: Gabriel Fernandes  
+    given-names: Kaique 
+  - family-names: Vinicius Oliveira Castro Silva
+    given-names: Marco
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: 
+    given-names: 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Fritzke Junior 
+    given-names: Udo
+keywords:
+  - Quadras
+  - Aluguel
+  - Esporte
+  - Locação esportiva
+  - Jogadores
+  - Equipes
+  - Atividade física
+  - Plataforma digital
+  - Pagamento online
+  - Esportes casuais
+  - Esportes avançados
+repository-code: 
+version: 1.0.0
+date-released: 2026-06-21
